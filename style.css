@@ -4,12 +4,12 @@
 
 
 *{
-    height: 0%;
+    height: 0px;
 }
 
 body{
     margin: 0px;
-    background-color: #EBAEFA;
+    background-color: rgb(254, 226, 255);
 }
 
 header{
@@ -35,17 +35,90 @@ header > p{
     font-family:Poetsen One;
 }
 
+nav{
+    background-color: #9fe290;
+    height: 45px;
+}
+
+nav > ul {
+    margin: 0px;
+    text-align: center;
+}
+
+nav > ul > li{
+    display: inline;
+    line-height: 42px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    font-family: Jost;
+    font-size: 15pt;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > li:hover{
+    background-color: #61b54f;
+}
+
 main{
     min-height: 1000px;
     max-height: 1200px;
-    background-image: linear-gradient(to bottom, #EBAEFA, #ACFF9A);
+    background-color: rgb(254, 226, 255);
 }
 
-#conteudo{
-    margin-top: 80px;
+.img1{
+    text-align: left;
+    margin-left: 20px;
 }
 
-.logo{
+.img2{
+    text-align: right;
+    margin-left: 20px;
+}
+
+.img3{
+    text-align: center;
+    height: 500px;
+}
+
+.principal > picture > img{
+    width: 100%;
+    height: 500px;
+}
+
+.logo > img{
+   width: 220px;
+   height: 220px;
+   display: inline-block;
+}
+
+.ist{
+    height: 400px;
+    background-color: #9fe290;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.ist > h2{
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 2.5em;
+    font-family: Patrick Hand;
+    text-align: center;
+}
+
+.ist > p{
+    text-align: justify;
+    font-family: Jost;
+    font-size: 12pt;
+    text-indent: 10px;
+    margin-bottom: 70px;
 }
 
 .contato{
@@ -68,6 +141,5 @@ main{
 }
 
 footer{
-    min-height: 80px;
-    max-height: 100px;
+height: 80px;
 }
