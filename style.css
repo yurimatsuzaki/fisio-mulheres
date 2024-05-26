@@ -106,7 +106,14 @@ main{
 
 .img4{
     text-align: center;
-    max-height: 550px;
+    max-height: 600px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.img5{
+    text-align: center;
+    max-height: 600px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -155,6 +162,67 @@ main{
 }
 
 .ist > p{
+    text-align: justify;
+    font-family: Jost;
+    font-size: 12pt;
+    text-indent: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.prev{
+    min-height: 400px;
+    max-height: 1250px;
+    background-color: #de90e2;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.prev > h2{
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 2.5em;
+    font-family: Patrick Hand;
+    text-align: center;
+}
+
+.prev > p{
+    text-align: justify;
+    font-family: Jost;
+    font-size: 12pt;
+    text-indent: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.curio{
+    min-height: 400px;
+    max-height: 1250px;
+    background-color: #de90e2;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.curio > h2{
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    font-size: 2.5em;
+    font-family: Patrick Hand;
+    text-align: center;
+}
+
+.curio > p{
+    text-align: justify;
+    font-family: Jost;
+    font-size: 12pt;
+    text-indent: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.curio > ol > li{
     text-align: justify;
     font-family: Jost;
     font-size: 12pt;
