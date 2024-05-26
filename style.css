@@ -10,13 +10,12 @@
 
 body{
     margin: 0px;
-    background-color: rgb(254, 226, 255);
+    background-image: linear-gradient(to bottom, #d7ffcf, #e8b1f6);
 }
 
 header{
     height: 180px;
     background-image: linear-gradient(to bottom, #ACFF9A, #EBAEFA);
-    box-shadow: 0px 0px 2px 0px black;
 }
 
 .cabeca > h1{
@@ -47,6 +46,7 @@ nav{
     min-height: 45px;
     max-height: 95px;
     margin-bottom: 50px;
+    box-shadow: 0px 1px black;
 }
 
 nav > ul {
@@ -100,13 +100,21 @@ main{
 
 .img3{
     text-align: center;
-    height: 500px;
+    max-height: 600px;
     margin-bottom: 20px;
+}
+
+.img4{
+    text-align: center;
+    max-height: 550px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .principal > picture > img{
     width: 95%;
-    height: 500px;
+    max-height: 600px;
+    min-height: 290px;
     border-radius: 10px;
     
 }
